@@ -1,6 +1,8 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.content.fmHighlight": false,
+  "frontMatter.content.hideFm": true,
+  "frontMatter.content.hideFmMessage": "Use the editor panel to make front matter changes",
   "frontMatter.content.pageFolders": [
     {
       "title": "adaptive-cards-community-call",
@@ -18,8 +20,8 @@
       "excludeSubdir": true
     },
     {
-      "title": "Microsoft 365 Developer Community Call Recording",
-      "path": "[[workspace]]/content/microsoft-365-developer-community-call",
+      "title": "Microsoft 365 Platform Community Call Recording",
+      "path": "[[workspace]]/content/microsoft-365-platform-community-call",
       "excludeSubdir": true
     },
     {
@@ -44,7 +46,9 @@
     },
     {
       "title": "post",
-      "path": "[[workspace]]/content/post"
+      "path": "[[workspace]]/content/post",
+      "contentTypes": ["regular"],
+      "filePrefix": null
     }
   ],
   "frontMatter.content.publicFolder": "static",

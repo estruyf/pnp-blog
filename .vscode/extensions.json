@@ -2,6 +2,7 @@
     "recommendations": [
         "bungcip.better-toml",
         "eliostruyf.vscode-microsoft-writingstyleguide",
+        "eliostruyf.vscode-front-matter",
         "docsmsft.docs-authoring-pack",
         "mushan.vscode-paste-image",
         "rusnasonov.vscode-hugo"

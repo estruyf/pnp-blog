@@ -1,0 +1,57 @@
+{
+  "$schema": "https://frontmatter.codes/config/taxonomy.contenttype.schema.json",
+  "name": "regular",
+  "pageBundle": true,
+  "template": "[[workspace]]/.frontmatter/templates/post.md",
+  "postScript": "create-image-folder",
+  "fields": [
+    {
+      "title": "Title",
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "title": "Date",
+      "name": "date",
+      "type": "datetime",
+      "default": "{{now}}"
+    },
+    {
+      "title": "Author",
+      "name": "author",
+      "type": "string",
+      "single": true
+    },
+    {
+      "title": "GitHub Name",
+      "name": "githubname",
+      "type": "string",
+      "single": true
+    },
+    {
+      "title": "Images",
+      "name": "images",
+      "type": "image",
+      "multiple": true
+    },
+    {
+      "title": "Categories",
+      "name": "categories",
+      "type": "categories",
+      "hidden": true
+    },
+    {
+      "title": "Tags",
+      "name": "tags",
+      "type": "tags",
+      "hidden": true
+    },
+    {
+      "title": "Type",
+      "name": "type",
+      "type": "string",
+      "default": "regular",
+      "hidden": true
+    }
+  ]
+}

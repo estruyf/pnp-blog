@@ -1,0 +1,14 @@
+{
+  "$schema": "https://frontmatter.codes/config/custom.scripts.schema.json",
+  "title": "Create image folder",
+  "id": "create-image-folder",
+  "script": "./.frontmatter/config/custom/scripts/create-image-folder.sh",
+  "command": "bash",
+  "environments": [
+    {
+      "type": "windows",
+      "script": "./.frontmatter/config/custom/scripts/create-image-folder.ps1",
+      "command": "powershell"
+    }
+  ]
+}
